@@ -1,0 +1,72 @@
+:root{
+    --orange: #ee6c4d;
+    --dark-blue: #293241;
+    --blue: #3d5a80;
+    --medium-blue: #64b5e4;
+    --light-blue: #98c1d9;
+    --white-blue: #e0fbfc;
+    --white: #fff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.estiloGeneral{
+    display: flex;
+    justify-content: space-around;
+}
+.estiloTituloMinato{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: x-large;
+    color: #fff;
+}
+.textoPrecio{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1rem;
+}
+.estiloLamina {
+    background-color: #808080;
+    height: auto;
+    width: 600px;
+    text-align: center;
+}
+.distanciaBotones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estiloBotonizq{
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.estiloBotonder{
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.botSumRes{
+    border-radius: 4px;
+    color: #293241;
+    font-size: 16px;
+    padding: 4px 8px;
+    background: #fff;
+    border: solid #000000 2px;
+    width: 30px;
+}
+.precioFinal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #2a3536;
+}
+.formatoMulti{
+    padding-top: 1rem;
+    color: #ee6c4d;
+    font-size: x-large;
+    font-weight: 700;
+}
